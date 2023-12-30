@@ -1,0 +1,26 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@types/node": "^18",
+    "nuxt": "^3.6.0",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.4.11",
+    "@types/remarkable": "^2.0.3",
+    "idb": "^7.1.1",
+    "pinia": "^2.1.4",
+    "remarkable": "^2.0.1",
+    "sass": "^1.63.6"
+  }
+}

@@ -13,7 +13,7 @@ const convertDate = (date: string) => {
     <div class="sidebar d-flex align-items-start flex-column">
         <div class="up d-flex align-items-start flex-column">
             <IconsLogo class="logo" />
-            <span class="header weight-500">My-Markdown.vercel.app</span>
+            <span class="header weight-500">Markdown</span>
 
             <ButtonsNewDoc />
 
